@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    background: url('./new2.jpg');
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: cadetblue;
+    text-shadow: 2px 4px 3px goldenrod;
+    
+}
+.content{
+    margin-left: 42%;
+    
+}
+.class{
+    /* border: 1px solid black; */
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A;
+}
+p{
+    margin-left: -35px;
+    display: inline;
+    font-size: 25px;
+    font-weight: 600;
+}
+.links{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.class1{
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A;
+    transition: width 2s ;
+}
+.class1:hover{
+    width: 500px;
+}
+.class2{
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A;
+    transition: width 2s , height 4s;
+}
+.class2:hover{
+    height: 400px;
+    width: 400px;
+}
+.class3{
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A;
+    transition: width 2s linear;
+}
+.class3:hover{
+    width:500px ;
+}
+.class4{
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A;
+    transition: width 2s ease;
+}
+.class4:hover{
+    width: 500px;
+}
+.class5{
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A ;
+    transition: width 2s ease-in;
+}
+.class5:hover{
+    width: 500px;
+}
+.class6{
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A;
+    transition: width 4s ease-out;
+}
+.class6:hover{
+    width: 500px;
+}
+.class7{
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color:#61B15A;
+    transition: width 5s ease-in-out;
+}
+.class7:hover{
+    width: 500px;
+}

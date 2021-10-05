@@ -1,0 +1,196 @@
+body{
+    background: url(./new1.jpg);
+    
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: cadetblue;
+    text-shadow: 2px 4px 3px black;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+p{
+    margin-top: 164px;
+    font-size: 30px;
+    font-weight: 600;
+}    
+.box{
+    /* border: 1px solid black; */
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    position: relative;
+    background-color: teal;
+    animation-name:box ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes box 
+{
+    0%{
+        transform: skewX(45deg);
+    
+    }
+    100%{
+        transform: skewX(-45deg);
+    
+    }
+    
+    
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class{
+    /* border: 1px solid black; */
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color: cornflowerblue;
+    animation-name:class ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    /* animation-timing-function: ease-in-out; */
+    /* animation-fill-mode: forwards; */
+}
+@keyframes class 
+{
+    0%{
+        transform: skewY(15deg);
+    
+    }
+    100%{
+        transform: skewY(-15deg);
+    
+    }
+    
+    
+}
+    
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    /* border: 1px solid black; */
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color: teal;
+    animation-name:card ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes card
+{
+    100%{
+        transform: rotate(360deg);
+    
+    }
+    
+    
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab{
+    border: 4px solid green;
+    height: 170px;
+    width: 170px;
+    padding-left: 0px;
+    margin: 90px;
+    background-color: teal;
+}
+.tab1{
+    animation-name:tab1 ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: ease-in;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes tab1
+{
+    0%{
+        transform: scaleY(-1);
+    
+    }
+    50%{
+        transform: scaleY(0);
+    
+    }
+    100%{
+        transform: scaleY(1);
+    
+    }
+    
+    
+
+}
+.tab2{
+    background-color: brown;
+    animation-name:tab2 ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse;  */
+    animation-timing-function: ease-in;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes tab2 
+{
+    0%{
+        transform: scaleX(-1);
+    
+    }
+    50%{
+        transform: scaleX(01);
+    
+    }
+    100%{
+        transform: scaleX(1);
+    
+    }
+    
+    
+}
+
+.tab3{
+    background-color: olivedrab;
+    animation-name:tab3 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes tab3 
+{
+    100%{
+        transform: rotate(180deg);
+    
+    }
+    
+    
+}
